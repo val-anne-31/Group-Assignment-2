@@ -2,7 +2,9 @@ window.appState = {
   selectedCountries: [],
   selectedJobs: [],
   scatterTimeMode: "overall",
-  selectedMonth: null
+  selectedMonth: null,
+
+  selectedScatter: null
 };
 
 window.updateState = function (patch) {
